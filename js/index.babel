@@ -48,9 +48,12 @@ var MarkdownEditor = React.createClass({
 		return (
 			<div className="container-fluid main">
 				<div className="row">
-					<h1 className="text-center name">
+				<div className="name">
+				<img className="logo" src="../img/markit.png"/>
+				<h1 className="text-center">
 						Markit- Markdown Editor
 					</h1>
+				</div>
 					{/* <div>
 						<div>
 							Words: <span  id="words"></span>
