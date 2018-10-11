@@ -50,6 +50,16 @@ body {
     padding: 1.2rem;
 }
 
+.logo{
+    display: inline;
+}
+
+.name h1{
+    float: right;
+    margin-right: 35vw;
+}
+
+
 .name {
     background:  #373d49  ;
     margin-left: 0%;
